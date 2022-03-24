@@ -17,7 +17,7 @@ Want a place to store photos that are dear to the heart in one place with the ab
 - Add Images plus descriptions/info on profile
 - Edit descriptions and delete photo/descriptions
 - View others posts on a discover board
-- Implement Redux / Redux-toolkit and CSS framework (Material UI)
+- Implement Redux / Redux-toolkit and CSS framework (Tailwind)
 
 ## Wireframing
 
