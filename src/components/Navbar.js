@@ -13,7 +13,7 @@ const Navbar = () => {
         </LogoContainer>
         
         <IconsContainer>
-           <Link to='/dicover'><Discover>Discover</Discover></Link> 
+           <Link to='/dicover' className='flex '><Discover>Discover</Discover></Link> 
             <MdNotifications/>
             <MessageContainer>
                 <MdTextsms/>

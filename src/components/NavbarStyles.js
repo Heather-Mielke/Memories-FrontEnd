@@ -16,6 +16,8 @@ export const NavbarContainer = styled.nav`
 export const LogoContainer = styled.div`
     margin: 1vh 1vw;
     width: 30%;
+
+    
 `
 export const Logo = styled.h1`
     font-size: 48px;
@@ -23,6 +25,9 @@ export const Logo = styled.h1`
     padding: 5px;
     font-family: 'Neonderthaw', cursive;
     
+    @media (max-width: 420px) {
+    font-size: 35px;
+}
 `
 export const IconsContainer = styled.div`
     display: flex;
@@ -42,13 +47,21 @@ export const MessageContainer = styled.div`
 `
 export const Discover = styled.button`
     color: rgb(0 0 50);
-    font-size: 27px;
+    font-size: 18px;
+    color: white;
     margin-right: 2vw;
     border: none;
-    padding: 0 10px;
+    padding: 5px 10px;
     border-radius: 30px;
-    background-color: white;
+    background-color: none;
     box-shadow: 0 3px 10px rgb(255 255 255 /.5);
-    font-family: 'Hurricane', serif;
+    font-family: 'Abhaya Libre', serif;
+    transition: all .3s ease;
+
+    &:hover{
+        transform: scale(1.05);
+        background-color:white;
+        color:black;
+    }
 
 `
