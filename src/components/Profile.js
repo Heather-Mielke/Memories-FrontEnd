@@ -6,7 +6,7 @@ const Profile = () => {
     <>
     <div className='flex flex-col justify-center align-center'>
       <div className='profile-photo w-32 rounded-full mx-auto mt-28'>
-        <img className='w-100 rounded-full'src={me}/>
+        <img className='w-100 rounded-full'src={me} alt="userPhoto"/>
       </div>
       <div className=' flex flex-col justify-center align-center'>
         <p className='text-4xl text-center'>Name:</p>

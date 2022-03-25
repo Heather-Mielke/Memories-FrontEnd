@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 import { NavbarContainer, Logo, LogoContainer, IconsContainer, UserContainer, MessageContainer, Discover } from './NavbarStyles'
 import {MdNotifications, MdKeyboardArrowDown, MdTextsms} from 'react-icons/md'
 import {FaUserCircle} from 'react-icons/fa'
