@@ -4,6 +4,7 @@ import { NavbarContainer, Logo, LogoContainer, IconsContainer, UserContainer, Me
 import {MdNotifications, MdKeyboardArrowDown, MdTextsms} from 'react-icons/md'
 import {FaUserCircle} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import {BsGlobe} from 'react-icons/bs'
 
 const Navbar = () => {
   return (
@@ -13,13 +14,14 @@ const Navbar = () => {
         </LogoContainer>
         
         <IconsContainer>
-           <Link to='/dicover' className='flex '><Discover>Discover</Discover></Link> 
+           {/* <Link to='/discover' className='flex '><Discover>Discover</Discover></Link>  */}
+           <Link to='/discover' className='flex h-9'><Discover><BsGlobe/></Discover></Link> 
             <MdNotifications/>
             <MessageContainer>
                 <MdTextsms/>
             </MessageContainer>
             <UserContainer>
-                <Link to='/profile'><FaUserCircle/></Link>
+                <Link to='/login'><FaUserCircle/></Link>
                 <MdKeyboardArrowDown/>
             </UserContainer>
         </IconsContainer>

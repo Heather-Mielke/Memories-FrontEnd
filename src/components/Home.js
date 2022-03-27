@@ -41,7 +41,7 @@ const Home = () => {
         
         <div className=' relative text-sm cards'>
             <img src={hiking} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <div className='flex justify-between'>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='pt-2 text-white opacity-50 text-xs'>March 5th, 2022</p>
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={familyBeach} alt='family beach' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={kidGarden} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 '/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={friends} alt='friends' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 '/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -85,7 +85,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={swim} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -95,7 +95,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={hiking} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 '/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -105,7 +105,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={familyBeach} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 '/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -115,7 +115,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={kidGarden} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -125,7 +125,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={friends} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -135,7 +135,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={swim} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -145,7 +145,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={family1} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -155,7 +155,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={hiking} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1'/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
@@ -165,7 +165,7 @@ const Home = () => {
         </div>
         <div className=' relative text-sm cards'>
             <img src={family2} alt='hiking' className='rounded-lg'/>
-            <button className='absolute top-0 right-0 mr-1 mt-1 fill-white text-2xl'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 fill-white '/></button>
+            <button className='absolute top-0 right-0 mr-1 mt-1 text-2xl p-5'><IoExpand className='absolute top-0 right-0 mr-1 mt-1 '/></button>
             <p className='font-bold pt-2 text-white'>Hiking</p>
             <p className='text-white'>Who Posted</p>
             <div className='flex mb-2'>
