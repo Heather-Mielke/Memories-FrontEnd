@@ -1,12 +1,18 @@
 import React from 'react'
 // import { useState } from 'react'
-import { NavbarContainer, Logo, LogoContainer, IconsContainer, UserContainer, MessageContainer, Discover } from './NavbarStyles'
+import { NavbarContainer, Logo, LogoContainer, IconsContainer, UserContainer, MessageContainer, Discover, Login, SignUp } from './NavbarStyles'
 import {MdNotifications, MdKeyboardArrowDown, MdTextsms} from 'react-icons/md'
 import {FaUserCircle} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import {BsGlobe} from 'react-icons/bs'
 
 const Navbar = () => {
+  const guestLinks = (
+    <>
+   <Link to='/login'><Login>Log In</Login></Link>
+   <Link to='/register'><SignUp>Sign Up</SignUp></Link>
+    </>
+  )
   return (
     <NavbarContainer>
         <LogoContainer>
@@ -21,10 +27,13 @@ const Navbar = () => {
                 <MdTextsms/>
             </MessageContainer>
             <UserContainer>
-                <Link to='/login'><FaUserCircle/></Link>
+                <Link to='/profile'><FaUserCircle/></Link>
                 <MdKeyboardArrowDown/>
+                
             </UserContainer>
+            {guestLinks}
         </IconsContainer>
+        
     </NavbarContainer>
   )
 }

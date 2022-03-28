@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6acb3d30.css",
+    "main.js": "/static/js/main.cfaf6428.js",
+    "static/js/787.d9f431ea.chunk.js": "/static/js/787.d9f431ea.chunk.js",
+    "static/media/star-sky.png": "/static/media/star-sky.2c6eaff81a12941a4e92.png",
+    "static/media/hiking1.jpg": "/static/media/hiking1.ca9bc3a575077a762ac3.jpg",
+    "static/media/canyon.jpg": "/static/media/canyon.1862351111aedb6dc62e.jpg",
+    "static/media/kid-garden.jpg": "/static/media/kid-garden.fc76f5aeeb1e63ebba04.jpg",
+    "static/media/family2.jpg": "/static/media/family2.1132587188cc7c2b59c3.jpg",
+    "static/media/parasail.jpg": "/static/media/parasail.76aadb4a69174a796f2f.jpg",
+    "static/media/friends.jpg": "/static/media/friends.6263b12ebac651feedee.jpg",
+    "static/media/old-couple.jpg": "/static/media/old-couple.9f974fc2de875a9ed81e.jpg",
+    "static/media/kid-paint.jpg": "/static/media/kid-paint.48069a5f8bee4728e447.jpg",
+    "static/media/gramps-kid.jpg": "/static/media/gramps-kid.d1b46b5f571a78c3de43.jpg",
+    "static/media/family-baby.jpg": "/static/media/family-baby.ea8fff8fdca2e0f71e0d.jpg",
+    "static/media/family1.jpg": "/static/media/family1.0b5f476118c07483861e.jpg",
+    "static/media/swim-ocean.jpg": "/static/media/swim-ocean.feac69a3851004b20053.jpg",
+    "static/media/heather.jpeg": "/static/media/heather.3208042cf9e61d9477a6.jpeg",
+    "static/media/beach.jpg": "/static/media/beach.5959646f8b930f193b1c.jpg",
+    "static/media/family-beach.jpg": "/static/media/family-beach.4d19ecec222e25ae2386.jpg",
+    "index.html": "/index.html",
+    "main.6acb3d30.css.map": "/static/css/main.6acb3d30.css.map",
+    "main.cfaf6428.js.map": "/static/js/main.cfaf6428.js.map",
+    "787.d9f431ea.chunk.js.map": "/static/js/787.d9f431ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acb3d30.css",
+    "static/js/main.cfaf6428.js"
+  ]
+}

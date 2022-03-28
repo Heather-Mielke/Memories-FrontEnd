@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const NavbarContainer = styled.nav`
     width: 100%;
-    background: rgb(0 0 50 / .7);
+    background: rgb(0 0 30 / .7);
     height: 100px;
     display: flex;
     align-items: center;
@@ -64,4 +64,44 @@ export const Discover = styled.button`
         color:black;
     }
 
+`
+export const SignUp = styled.button `
+    background-color: rgb(150 150 200);
+    font-size: 20px;
+    color: white;
+    margin-right: 2vw;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: none;
+    box-shadow: 0 3px 10px rgb(255 255 255 /.5);
+    font-family: 'Abhaya Libre', serif;
+    transition: all .3s ease;
+    
+    
+    &:hover{
+        transform: scale(1.05);
+        background-color:white;
+        color:black;
+    }
+`
+
+export const Login = styled.button `
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    margin-right: 2vw;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: none;
+    box-shadow: 0 3px 10px rgb(255 255 255 /.5);
+    font-family: 'Abhaya Libre', serif;
+    transition: all .3s ease;
+
+    &:hover{
+        transform: scale(1.05);
+        background-color:white;
+        color:black;
+    }
 `
